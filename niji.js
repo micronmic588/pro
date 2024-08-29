@@ -7,7 +7,7 @@ module.exports.config = {
     usage: "/niji <prompt>",
     role: "user",
     usePrefix: true,
-    ["insta", "fb"],
+    aliases: ["insta", "fb"],
     author: "MICRON"
 };
 
