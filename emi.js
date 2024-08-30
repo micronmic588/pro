@@ -18,7 +18,7 @@ module.exports.run = async function ({ bot, chatId, args }) {
         return bot.sendMessage(chatId, "do your own work");
     }
 
-    const generatingMessage = await bot.sendMessage(chatId, "✅ Generating, please wait...");
+    const generatingMessage = await bot.sendMessage(chatId, "Generating, please wait...");
     
     const formattedText = `*Prompt:* _${text}_`;
 
