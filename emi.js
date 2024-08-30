@@ -15,7 +15,7 @@ module.exports.run = async function ({ bot, chatId, args }) {
     const text = args.join(' ');
 
     if (!text) {
-        return bot.sendMessage(chatId, "asfluhapjfb");
+        return bot.sendMessage(chatId, "do your own work");
     }
 
     const generatingMessage = await bot.sendMessage(chatId, "✅ Generating, please wait...");
