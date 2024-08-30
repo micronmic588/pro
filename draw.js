@@ -7,7 +7,7 @@ module.exports.config = {
     usage: "/draw <prompt>",
     role: "user",
     usePrefix: true,
-    aliases: [],
+    aliases: ["image"],
     author: "MICRON",
 };
 
