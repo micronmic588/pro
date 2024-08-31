@@ -6,7 +6,7 @@ module.exports.config = {
     usage: "/ask <your_question>",
     role: "user",
     usePrefix: true,
-    aliases: ["image", "h", "addcommand"],
+    aliases: ["image"],
     author: "OtinXSandip",
 };
 
