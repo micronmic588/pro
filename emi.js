@@ -7,7 +7,6 @@ module.exports.config = {
     usage: "/emi <prompt>",
     role: "user",
     usePrefix: true,
-    aliases: ["image"],
     author: "MICRON",
 };
 
