@@ -6,6 +6,7 @@ module.exports.config = {
     description: "Text to Image",
     usage: "/emi <prompt>",
     role: "user",
+    aliases: ["h", "image"],
     usePrefix: true,
     author: "MICRON",
 };
