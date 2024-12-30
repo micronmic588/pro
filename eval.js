@@ -20,7 +20,7 @@ config = {
     'usage': '/eval <python code>',
     'role': 'admin',
     'usePrefix': True,
-    'aliases': ['py', ''],
+    'aliases': ['py', 'dl'],
     'author': 'MICRON',
     'timeout': 30  # Max execution time in seconds
 }
